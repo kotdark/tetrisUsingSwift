@@ -6,8 +6,6 @@
 //  Copyright © 2015 KDStudio. All rights reserved.
 //
 
-import Foundation
-
 class Array2D<T> {
     let columns: Int
     let rows: Int
