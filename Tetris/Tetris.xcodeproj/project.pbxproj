@@ -28,6 +28,8 @@
 		A6B1C04A1BD69B7C00D100E3 /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6B1C03B1BD69B7C00D100E3 /* levelup.mp3 */; settings = {ASSET_TAGS = (); }; };
 		A6B1C04B1BD69B7C00D100E3 /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6B1C03C1BD69B7C00D100E3 /* theme.mp3 */; settings = {ASSET_TAGS = (); }; };
 		A6B1C04C1BD69B7C00D100E3 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6B1C03D1BD69B7C00D100E3 /* Sprites.atlas */; settings = {ASSET_TAGS = (); }; };
+		A6B1C0501BD6A35000D100E3 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B1C04F1BD6A35000D100E3 /* Array2D.swift */; settings = {ASSET_TAGS = (); }; };
+		A6B1C0521BD6A36000D100E3 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B1C0511BD6A36000D100E3 /* Block.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		A6B1C03B1BD69B7C00D100E3 /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = levelup.mp3; sourceTree = "<group>"; };
 		A6B1C03C1BD69B7C00D100E3 /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
 		A6B1C03D1BD69B7C00D100E3 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		A6B1C04F1BD6A35000D100E3 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		A6B1C0511BD6A36000D100E3 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 		A6B1C02B1BD69B7C00D100E3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A6B1C04F1BD6A35000D100E3 /* Array2D.swift */,
+				A6B1C0511BD6A36000D100E3 /* Block.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -231,7 +237,9 @@
 			files = (
 				A6B1C01A1BD69B1A00D100E3 /* GameScene.swift in Sources */,
 				A6B1C01C1BD69B1A00D100E3 /* GameViewController.swift in Sources */,
+				A6B1C0521BD6A36000D100E3 /* Block.swift in Sources */,
 				A6B1C0161BD69B1A00D100E3 /* AppDelegate.swift in Sources */,
+				A6B1C0501BD6A35000D100E3 /* Array2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
